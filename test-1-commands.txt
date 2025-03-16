@@ -1,0 +1,36 @@
+# First test
+# Testing all the error checking
+login jojo 77743 231.43.171.61
+login jojo 77743 111.11.111.11
+login jojo 77743 231.43.171.61
+login jojo 77743 211.43.171.11
+login joj 77743 231.43.171.61
+login jojo 7773 231.43.171.61
+out jojo 231.43.171.61
+login jojo 77733 211.11.111.61
+balance bob 211.11.111.61
+balance ajaj 211.11.111.61
+balance jojo 211.11.111.61
+balance jojo 211.43.171.11
+out jojo 231.43.171.61
+out jojo 211.43.171.11
+balance jojo 211.43.171.11
+login paoletti 372819 255.43.171.61
+balance paoletti 255.43.171.61
+place 06:02:01:40:22:34 134.31.78.43 paoletti jojo 2000 06:02:01:40:22:34 s
+place 07:02:01:40:22:34 134.31.78.43 paoletti jojo 2000 07:02:01:40:22:34 s
+place 08:02:01:40:22:34 134.31.78.43 paoletti paoletti 2000 09:02:01:40:22:34 s
+place 08:02:01:40:22:34 134.31.78.43 paoletti jojo 2000 08:02:04:40:22:35 s
+place 08:02:01:40:22:34 255.43.171.61 paoletti jojo 2000 08:02:04:40:22:34 s
+place 08:02:01:40:22:34 255.43.171.61 hahaha jojo 2000 08:02:04:40:22:34 s
+place 08:02:01:40:22:34 255.43.171.61 ajaj jojo 2000 08:02:04:40:22:34 s
+place 08:02:01:40:22:34 211.11.171.61 paoletti jojo 2000 08:02:04:40:22:34 s
+login ajaj 12345 000.00.000.00
+place 08:02:01:40:22:55 000.00.000.00 ajaj jojo 10000 08:02:02:40:22:60 s
+place 09:02:01:40:22:55 000.00.000.00 ajaj mertg 1000 09:02:02:40:22:60 s
+balance paoletti 255.43.171.61
+$$$
+
+
+
+

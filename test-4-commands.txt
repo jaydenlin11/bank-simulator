@@ -1,0 +1,32 @@
+#Testing querey list and place, rmb to test first 10 of summary 
+login paoletti 372819 000.00.000.00
+login jojo 77743 111.11.111.11
+balance paoletti 000.00.000.00
+place 02:03:01:40:22:34 000.00.000.00 paoletti jojo 2000 02:03:01:40:22:35 o
+place 02:03:01:40:32:35 111.11.111.11 jojo paoletti 2000 02:03:01:40:32:35 s
+place 02:03:01:40:32:35 000.00.000.00 paoletti jojo 2000 02:03:03:40:22:35 s
+place 02:03:01:40:32:35 000.00.000.00 paoletti jojo 2000 02:03:01:40:32:35 s
+place 02:03:01:40:42:36 000.00.000.00 paoletti ajaj 3000 02:03:01:50:42:35 o
+place 02:03:01:40:52:37 000.00.000.00 paoletti jojo 30 02:03:01:70:52:35 o
+place 02:03:01:40:62:37 000.00.000.00 paoletti mertg 50000 02:03:01:41:62:35 o
+place 02:03:01:40:72:37 111.11.111.11 jojo paoletti 50000 02:03:01:55:62:35 o
+balance paoletti 000.00.000.00
+balance jojo 111.11.111.11
+place 02:03:01:40:82:34 111.11.111.11 jojo paoletti 20 02:03:01:40:82:35 o
+balance paoletti 000.00.000.00
+balance jojo 111.11.111.11
+place 02:03:01:40:92:34 111.11.111.11 jojo paoletti 20 02:03:01:40:92:35 o
+balance paoletti 000.00.000.00
+balance jojo 111.11.111.11
+$$$
+l 08:03:01:40:22:34 09:03:01:40:92:35
+l 08:03:01:40:22:34 08:03:01:40:22:34
+r 08:03:01:40:22:34 08:03:01:40:22:34
+r 00:03:01:40:22:34 08:03:01:40:22:34
+h jojo
+h pp
+h paoletti
+h ajaj
+s 08:03:01:40:22:34
+
+
